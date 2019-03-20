@@ -1,3 +1,7 @@
 def my_each(array)
-  # code here
+  var = 0
+  while var < array.length do
+    yield array[i]
+    var += 1
+  end
 end
